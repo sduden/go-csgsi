@@ -41,6 +41,7 @@ type player struct {
 	SteamId string
 	Name string
 	Team string
+	Observer_slot int
 	Activity string
 	State *playerState
 	Weapons map[string]*weapon
